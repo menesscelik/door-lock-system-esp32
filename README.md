@@ -24,8 +24,8 @@ This project is a password-protected door lock system built using an **ESP32-S3 
 - Supports password confirmation and reset  
 - Compact and simple hardware setup  
 - Default password: `1907`  
-  - Correct: Servo rotates to 180° → waits 5 seconds → returns to 10°  
-  - Incorrect: Servo briefly moves to 30° → returns to 10°
+  - Correct: Servo rotates to 180° → waits 5 seconds → returns to 0°  
+  - Incorrect: Servo briefly moves to 30° → returns to 0°
 
 ## 🔧 Hardware Requirements
 
